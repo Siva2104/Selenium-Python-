@@ -13,3 +13,4 @@ class browser:
         driver.get('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
         while (True):
             pass
+###
