@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import time
 
-#driver = webdriver.Chrome(r"C:\\Users\\SHIVA\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe")
+
 driver_path = r"C:\\Users\\SHIVA\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"
 service = Service(driver_path)
 driver = webdriver.Chrome(service=service)
@@ -26,6 +26,9 @@ username_input.send_keys("standard_user")
 password_input.send_keys("secret_sauce")
 time.sleep(5)
 driver.find_element(By.XPATH,"/html/body/div/div/div[2]/div[1]/div/div/form/input").click()
+
+
+
 time.sleep(5)
 
 ##capture the title and
