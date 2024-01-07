@@ -1,3 +1,11 @@
+ #2) What are XPath Axes?
+
+'''Answer: An XPath axes define the node-set relative to the current (context) node.
+It is used to locate the node that is relative to the node on that tree.'''
+
+
+
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import time
