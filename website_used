@@ -1,0 +1,2 @@
+driver.get("https://money.rediff.com/index.html")
+driver.get("https://www.saucedemo.com/")
