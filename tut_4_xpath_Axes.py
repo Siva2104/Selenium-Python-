@@ -5,7 +5,15 @@ It is used to locate the node that is relative to the node on that tree.'''
 
 
 
+'''
+syntax-example:
+ancestor = driver.find_elements(By.XPATH,"//a[contains(text(),'S&P BSE 500')]/ancestor::ul/child::tag_name")
+ancestor = driver.find_elements(By.XPATH,"//a[contains(text(),'S&P BSE 500')])
+ancestor = driver.find_elements(By.XPATH,"//a[contains(text(),'S&P BSE 500')]/ancestor::ul/descending::tag_name")
+ancestor = driver.find_elements(By.XPATH,"//a[contains(text(),'S&P BSE 500')]/ancestor::ul/following::tag_name")
+ancestor = driver.find_elements(By.XPATH,"//a[contains(text(),'S&P BSE 500')]/ancestor::ul/preceding::tag_name")
 
+'''
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import time
