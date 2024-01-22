@@ -1,0 +1,18 @@
+X path Axes:
+
+1. Child
+//*[attribute="value"]/child::tagname
+2. Parent
+//*[attribute="value"]/parent::tagname
+3. following
+//*[attribute="value"]/following::tagname
+4.preceding
+//*[attribute="value"]/preceding::tagname
+5. preceding-sibling
+//current html tag[@attribute=""value""]/preceding-sibling::Previous tag [@attribute='value']
+6.ancestor
+//*[attribute="value"]/ancestor::tagname
+7.descendant
+
+8.Descendant-sibling
+ 
